@@ -1,0 +1,32 @@
+.navbar-brand{
+    color: var(--green);
+    font-weight: 500;
+
+    transition: linear .3s;
+
+&:hover,&:focus{
+    color: var(--hover-color);
+}
+}
+
+
+.nav-link{
+    color: var(--green);
+
+    &:hover,&:focus{
+        color: var(--hover-color);
+    }
+}
+
+.search{
+    color: var(--green);
+
+    &:hover,&:focus{
+        color: var(--hover-color);
+    }
+}
+
+.alert{
+    z-index: 99;
+}
+

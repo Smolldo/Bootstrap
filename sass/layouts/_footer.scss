@@ -1,0 +1,13 @@
+.contact_icon{
+    fill: var(--green);
+
+}
+
+.footerNav-item{
+    width: 32px;
+}
+
+
+.footerNav-link:hover .contact_icon, .footerNav-link:focus .contact_icon{
+    fill: var(--hover-color);
+}

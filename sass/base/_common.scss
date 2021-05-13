@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul,ol{
+    list-style: none;
+    padding: 0;
+}
+
+.slide{
+    border: 3px solid black;
+}
+
+.card{
+    width: 310px;
+}
+
+section{
+    padding-top: 40px;
+}
+
+body{
+    background-color: var(--background-color);
+}

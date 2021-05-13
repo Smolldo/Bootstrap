@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+.slide {
+  border: 3px solid black;
+}
+
+.card {
+  width: 310px;
+}
+
+section {
+  padding-top: 40px;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+:root {
+  --nav-text:rgb(0, 0, 0);
+  --hover-color:rgb(0, 216, 18);
+  --white:white;
+  --bg-color:rgba(128, 128, 128, .7);
+  --green:rgb(18, 136, 18);
+  --background-color:rgba(88, 255, 88, .6) ;
+  --card-bg:rgba(16, 71, 16, .5);
+}
+
+.navbar-brand {
+  color: var(--green);
+  font-weight: 500;
+  transition: linear .3s;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  color: var(--hover-color);
+}
+
+.nav-link {
+  color: var(--green);
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: var(--hover-color);
+}
+
+.search {
+  color: var(--green);
+}
+
+.search:hover, .search:focus {
+  color: var(--hover-color);
+}
+
+.alert {
+  z-index: 99;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 37px;
+  font-weight: 900;
+  letter-spacing: .03em;
+}
+
+.card {
+  box-shadow: 0 4px 4px var(--nav-text);
+  background-color: var(--card-bg);
+}
+
+.card_button {
+  background-color: var(--green);
+  font-weight: 600;
+  color: var(--white);
+  box-shadow: 0 4px 4px var(--nav-text);
+}
+
+.card_button:hover, .card_button:focus {
+  background-color: var(--hover-color);
+}
+
+.music_item {
+  margin: 15px;
+}
+
+.contact_icon {
+  fill: var(--green);
+}
+
+.footerNav-item {
+  width: 32px;
+}
+
+.footerNav-link:hover .contact_icon, .footerNav-link:focus .contact_icon {
+  fill: var(--hover-color);
+}
+/*# sourceMappingURL=style.css.map */
